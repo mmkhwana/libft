@@ -5,28 +5,28 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/21 10:58:48 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/05/21 13:43:56 by mmkhwana         ###   ########.fr       */
+/*   Created: 2019/05/21 14:19:09 by mmkhwana          #+#    #+#             */
+/*   Updated: 2019/05/21 14:38:39 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char		*ft_strcpy(char *str1,char *str2)
+char	*ft_strcpy(char *str1, char *str2)
 {
-		int i;
-		i = 0;
-		while (str2[i] != '\0')
-		{
-			i++;
-		}
+	int i;
+	int j;
 
-		int j;
-		j = 0;
-		while (str1[j])
-		{
-			str1[j] = str2[j];
-				j++;
-		}
-		return (str1);
+	i = 0;
+	while (str2[i] != '\0')
+	{
+		i++;
+	}
+	j = 0;
+	while (str1[j])
+	{
+		str1[j] = str2[j];
+		j++;
+	}
+	return (str1);
 }
