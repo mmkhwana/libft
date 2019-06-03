@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 08:32:25 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/03 14:01:19 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/03 16:51:02 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,4 +33,5 @@ int					ft_memcmp(const void *str1, const void *str2, size_t n);
 void				*ft_memchr(const void *str1, int c, size_t n);
 char				*ft_strstr(const char *haystack, const char *needle);
 void				*ft_memset(void *b, int c, size_t x);
+char				*ft_strdup(const char *str1);
 #endif
