@@ -6,7 +6,7 @@
 #    By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/30 10:05:04 by mmkhwana          #+#    #+#              #
-#    Updated: 2019/06/03 14:02:17 by mmkhwana         ###   ########.fr        #
+#    Updated: 2019/06/03 16:51:59 by mmkhwana         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,9 +14,9 @@ NAME = libft.a
 
 CC = gcc
 
-SOURCES = ft_atoi.c ft_strcat.c ft_strcmp.c ft_strlen.c ft_strncmp.c ft_strrchr.c ft_memcpy.c ft_memmove.c ft_strchr.c ft_strcpy.c ft_strncat.c ft_strncpy.c ft_memcmp.c ft_memchr.c ft_strstr.c ft_memset.c 
+SOURCES = ft_atoi.c ft_strcat.c ft_strcmp.c ft_strlen.c ft_strncmp.c ft_strrchr.c ft_memcpy.c ft_memmove.c ft_strchr.c ft_strcpy.c ft_strncat.c ft_strncpy.c ft_memcmp.c ft_memchr.c ft_strstr.c ft_memset.c ft_strdup.c 
 
-OBJECTS = ft_atoi.o ft_strcat.o ft_strcmp.o ft_strlen.o ft_strncmp.o ft_strrchr.o ft_memcpy.o ft_memmove.o ft_strchr.o ft_strcpy.o ft_strncat.o ft_strncpy.o ft_memcmp.o ft_memchr.o ft_strstr.o ft_memset.o
+OBJECTS = ft_atoi.o ft_strcat.o ft_strcmp.o ft_strlen.o ft_strncmp.o ft_strrchr.o ft_memcpy.o ft_memmove.o ft_strchr.o ft_strcpy.o ft_strncat.o ft_strncpy.o ft_memcmp.o ft_memchr.o ft_strstr.o ft_memset.o ft_strdup.o
 
 flags = -Wall -Werror -Wextra
 
