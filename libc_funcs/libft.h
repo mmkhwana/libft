@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 08:32:25 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/05 14:16:12 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/05 15:55:24 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,4 +37,10 @@ char				*ft_strdup(const char *str1);
 void				*ft_bzero(void *str1, size_t n);
 void				*ft_memccpy(void *restrict strd, const void *restrict strs, int c, size_t n);
 int					ft_isalpha(int c);
+int					ft_isdigit(int c);
+int					ft_isalnum(int c);
+int					ft_isascii(int c);
+int					ft_isprint(int c);
+int					ft_toupper(int c);
+int					ft_tolower(int c);
 #endif
