@@ -6,15 +6,15 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 14:44:22 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/03 08:43:59 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/05 13:56:59 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int		ft_atoi(const char *str)
 {
-	int		num;
-	int		sign;
-	int		i;
+	signed long int		num;
+	signed long int		sign;
+	signed long int		i;
 
 	num = 0;
 	i = 0;
