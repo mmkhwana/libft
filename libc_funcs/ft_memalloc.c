@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/06 13:31:43 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/06 13:54:23 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/06 15:47:31 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@ void		*ft_memalloc(size_t size)
 	if (str == NULL)
 		return (NULL);
 	else
-		ft_bzero(str,size);
+		ft_bzero(str, size);
 	return (str);
 }
