@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/10 17:43:01 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/11 09:19:02 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/11 09:30:28 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int		ft_strnequ(char const *str1, char const *str2, size_t n)
 {
-	if (str11 && str2)
+	if (str1 && str2)
 	{
 		while (*str1 == *str2 && n > 0)
 		{
