@@ -6,27 +6,27 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/10 17:43:01 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/10 17:50:53 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/11 09:19:02 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_strnequ(char const *s1, char const *s2, size_t n)
+int		ft_strnequ(char const *str1, char const *str2, size_t n)
 {
-	if (s1 && s2)
+	if (str11 && str2)
 	{
-		while (*s1 == *s2 && n > 0)
+		while (*str1 == *str2 && n > 0)
 		{
-			if (*s1 == 0)
+			if (*str1 == 0)
 			{
 				return (1);
 			}
-			s1++;
-			s2++;
+			str1++;
+			str2++;
 			n--;
 		}
-		if (n == 0 || (*s1 == 0 && *s2 == 0))
+		if (n == 0 || (*str1 == 0 && *str2 == 0))
 		{
 			return (1);
 		}
