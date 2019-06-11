@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 08:32:25 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/10 17:49:28 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/11 09:04:35 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <stdlib.h>
 
 int					ft_atoi(const char *str);
-char				*ft_strcat(char *restrict str1, const char *restrict str2);
+char				*ft_strcat(char *str1, const char *str2);
 int					ft_strcmp(const char *str1, const char *str2);
 size_t				ft_strlen(const char *str);
 int					ft_strncmp(const char *str1, const char *str2, size_t n);
@@ -35,7 +35,7 @@ char				*ft_strstr(const char *haystack, const char *needle);
 void				*ft_memset(void *b, int c, size_t x);
 char				*ft_strdup(const char *str1);
 void				*ft_bzero(void *str1, size_t n);
-void				*ft_memccpy(void *restrict strd, const void *restrict strs, int c, size_t n);
+void				*ft_memccpy(void *strd, const void *strs, int c, size_t n);
 int					ft_isalpha(int c);
 int					ft_isdigit(int c);
 int					ft_isalnum(int c);
@@ -58,4 +58,5 @@ char				*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int					ft_strequ(char const *s1, char const *s2);
 size_t				ft_strlcat(char *dst, const char *strs, size_t dstsize);
 int					ft_strnequ(char const *s1, char const *s2, size_t n);
+char				*ft_strnstr(const char *haystack, const char *needle, size_t len);
 #endif
