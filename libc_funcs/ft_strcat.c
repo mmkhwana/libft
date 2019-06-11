@@ -6,11 +6,11 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 10:07:56 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/05/23 10:37:05 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/11 08:59:30 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strcat(char *restrict str1, const char *restrict str2)
+char	*ft_strcat(char *str1, const char *str2)
 {
 	int		i;
 	int		j;
