@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/12 10:44:19 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/12 15:41:56 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/12 15:52:19 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,7 @@ char		*ft_strtrim(char const *str)
 		return (NULL);
 	while (i <= len)
 	{
-		str1[j] = str[i];
-		j++;
+		str1[j++] = str[i];
 		i++;
 	}
 	str1[j] = '\0';
