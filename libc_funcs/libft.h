@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 08:32:25 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/17 15:38:08 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/18 11:42:14 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,4 +64,5 @@ char				*ft_strjoin(char const *str1, char const *str2);
 char				*ft_strtrim(char const *str);
 char				**ft_strsplit(char const *str, char c);
 char				*ft_itoa(int n);
+void				ft_putnbr(int n);
 #endif
