@@ -52,6 +52,7 @@ clean:
 
 fclean:
 	@rm -f $(NAME)
+	@rm -f $(OBJECT)
 
 re: fclean all
 
