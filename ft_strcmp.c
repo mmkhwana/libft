@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 10:55:14 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/22 02:27:04 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/24 08:14:39 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ int		ft_strcmp(const char *str1, const char *str2)
 		return (1);
 	else if (((unsigned char)str1[i] - (unsigned char)str2[i]) < 0)
 		return (-1);
-	else 
+	else
 		return (0);
-
 }
