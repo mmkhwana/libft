@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/07 08:09:02 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/07 09:02:56 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/29 15:18:15 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,9 @@
 
 void		ft_strdel(char **as)
 {
-	ft_memdel((void **)as);
+	if (*as != NULL)
+	{
+		free(*as);
+		*as = NULL;
+	}
 }
