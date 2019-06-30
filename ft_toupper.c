@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/05 15:13:28 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/05 15:23:53 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/30 16:37:24 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int		ft_toupper(int c)
 {
 	if ((c >= 'a') && (c <= 'z'))
-		return (c -= 32);
+		return ((char)(unsigned int)c - 32);
 	else
 		return (c);
 }
