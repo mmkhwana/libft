@@ -6,7 +6,7 @@
 /*   By: mmkhwana <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 08:32:25 by mmkhwana          #+#    #+#             */
-/*   Updated: 2019/06/18 17:40:34 by mmkhwana         ###   ########.fr       */
+/*   Updated: 2019/06/30 13:05:01 by mmkhwana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void				*ft_memmove(void *dst, const void *str, size_t n);
 char				*ft_strchr(const char *str, int c);
 char				*ft_strcpy(char *dst, const char *str);
 char				*ft_strncat(char *str1, const char *str2, int n);
-char				*ft_strncpy(char *strd, const char *strs, int n);
+char				*ft_strncpy(char *strd, const char *strs, size_t n);
 int					ft_memcmp(const void *str1, const void *str2, size_t n);
 void				*ft_memchr(const void *str1, int c, size_t n);
 char				*ft_strstr(const char *haystack, const char *needle);
@@ -58,7 +58,7 @@ char				*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int					ft_strequ(char const *s1, char const *s2);
 size_t				ft_strlcat(char *dst, const char *strs, size_t dstsize);
 int					ft_strnequ(char const *str1, char const *str2, size_t n);
-char				*ft_strnstr(const char *hay, const char *need, size_t len);
+char				*ft_strnstr(const char *stack, const char *ned, size_t len);
 char				*ft_strsub(char const *s, unsigned int start, size_t len);
 char				*ft_strjoin(char const *str1, char const *str2);
 char				*ft_strtrim(char const *str);
